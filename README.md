@@ -46,6 +46,12 @@ Follow these steps to set up and use the E-Commerce-Management on your local mac
 
 - Clone the repository: `git clone https://github.com/bahossdev/E-Commerce-Management.git`
 - Install the required libraries: `npm install`
+- To connect to your MySQL database, create a `.env` file in the root directory of the project, including the following:
+        <pre>
+        DB_NAME = database_name
+        DB_USER = your username
+        DB_PASSWORD = your password
+        </pre>
 - Create a MySQL database using the provided schema.sql file.
 - Seed the database with test data: `npm run seed`
 - Run the app using: `npm start`

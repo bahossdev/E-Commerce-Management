@@ -24,7 +24,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if (categoryData == null) {
-      res.status(404).json({ ok: false, message: `No category found with id ${req.params.id}!` });
+      res.status(404).json({ ok: false, message: `Category with id ${req.params.id} not found!` });
       return;
     } else {
       res.status(200).json(categoryData);
@@ -50,7 +50,7 @@ router.put('/:id', async (req, res) => {
     const categoryId = req.params.id;
     const existingCategory = await Category.findByPk(categoryId);
     if (!existingCategory) {
-      res.status(404).json({ ok: false, message: `No category found with id ${req.params.id}!` });
+      res.status(404).json({ ok: false, message: `No category found with id ${categoryId}!` });
       return;
     } else {
       const categoryData = await Category.update(req.body, {
@@ -72,7 +72,7 @@ router.delete('/:id', async (req, res) => {
     const categoryId = req.params.id;
     const existingCategory = await Category.findByPk(categoryId);
     if (!existingCategory) {
-      res.status(404).json({ ok: false, message: `No category found with id ${req.params.id}!` });
+      res.status(404).json({ ok: false, message: `No category found with id ${categoryId}!` });
       return;
     } else {
       const categoryData = await Category.destroy({

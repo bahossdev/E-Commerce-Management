@@ -130,8 +130,9 @@ If you have any questions or need further assistance, feel free to reach out @[b
 
 ## Screenshots
 * **Insomnia: GET All Categories:**
-
+![screenshot1](https://github.com/bahossdev/E-Commerce-Management/assets/148646212/b3969eea-77be-4270-9055-09b4dbe6a789)
 
 * **Insomnia: GET Single Product:**
+![screenshot2](https://github.com/bahossdev/E-Commerce-Management/assets/148646212/ebae0610-7ced-434c-8173-9681bbfc93c4)
 
 

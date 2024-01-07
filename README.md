@@ -109,7 +109,7 @@ Now, you're ready to efficiently manage your e-commerce platform.
 
 ## Credits
 
-To create this application, I referenced documentation for MySQL, Express.js, npm, Insomnia [add more]. Additionally, I drew insights from class activities and consulted resources on MDN, W3Schools, Stack Overflow, and similar educational platforms.
+To create this application, I referenced documentation for MySQL, Express.js, npm, Insomnia [add more]. Additionally, I drew insights from class activities and consulted resources on MDN, W3Schools, Stack Overflow, and similar educational platforms. The starter code can be found at [this link](https://github.com/coding-boot-camp/fantastic-umbrella).
 
 ## License
 Please refer to the LICENSE in the repo.
@@ -118,7 +118,7 @@ Please refer to the LICENSE in the repo.
 
 Link to Walkthrough Video demonstrating the functionality of the E-Commerce-Management:
 
-- [Watch Walkthrough]()
+- [Watch Walkthrough](https://drive.google.com/file/d/11CJEeoWWqO6gU9obXIOhAsDWtHhRnkUN/view?usp=share_link)
 
 ## Repository
 
@@ -129,5 +129,9 @@ Link to Walkthrough Video demonstrating the functionality of the E-Commerce-Mana
 If you have any questions or need further assistance, feel free to reach out @[bahoss.dev@gmail.com](mailto:bahoss.dev@gmail.com).
 
 ## Screenshots
-* **
+* **Insomnia: GET All Categories:**
+
+
+* **Insomnia: GET Single Product:**
+
 
